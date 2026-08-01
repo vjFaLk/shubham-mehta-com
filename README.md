@@ -56,12 +56,48 @@ The theme uses a `CustomImage` component that automatically displays images usin
 - Content collection images (used in posts or pages) must be stored in `src/assets/` since they use Astro’s `image()` schema.
 - Site-config images (like the avatar, hero image, or social preview) can either be imported from `src/assets/` for optimization or referenced directly from `public/` if you prefer not to optimize them.
 
+### Content editing with Sveltia CMS
+
+[Sveltia CMS](https://sveltiacms.app/) is wired up at **`/admin/`** on the deployed site. It's a Git-based CMS: every save is a commit to this repository, which triggers a normal Netlify build. There is no database and no extra hosting.
+
+Two files make it up, both in `public/admin/` so Astro copies them to the build untouched:
+
+- `index.html` — loads the CMS from unpkg, pinned to an exact version.
+- `config.yml` — collections and fields, kept in sync with `src/content.config.ts`.
+
+Uploads are written to `src/assets/images/` and referenced with entry-relative paths such as `../../assets/images/photo.jpg`, so they go through Astro's image optimization exactly like the existing content does.
+
+#### One-time Netlify setup
+
+Logging in goes through Netlify's GitHub OAuth provider, which has to be installed once:
+
+1. On GitHub, go to **Settings → Developer settings → OAuth Apps → New OAuth App** and create an app with the site URL as the homepage and `https://api.netlify.com/auth/done` as the **Authorization callback URL**.
+2. In Netlify, open **Site configuration → Access & security → OAuth → Authentication providers**, choose **Install provider → GitHub**, and paste the client ID and secret from step 1.
+
+Anyone with push access to the repository can then sign in at `/admin/`.
+
+#### Editing locally
+
+`npm run dev` serves the CMS at `http://localhost:4321/admin/` too. In a Chromium-based browser you can pick the local repository option on the login screen and edit the files in your working copy directly — no GitHub sign-in, no commits, just normal file changes you review and commit yourself.
+
+#### Keeping the config in sync
+
+`config.yml` and `src/content.config.ts` describe the same frontmatter from two directions, so a change to one needs the matching change in the other. Two things worth knowing:
+
+- Optional fields are omitted from the frontmatter when empty (`output.omit_empty_optional_fields`) instead of being written as empty strings, which the collection schemas would reject.
+- The SEO title and description fields carry length limits in `content.config.ts`. The CMS enforces the maximums; the minimums are only shown as hints, because a minimum-length rule would also fire on an empty optional field and block saving.
+
+#### Updating the CMS
+
+Bump the version in the `<script>` tag in `public/admin/index.html`, then open `/admin/` once to confirm the editor still loads. See the [releases](https://github.com/sveltia/sveltia-cms/releases). The `yaml-language-server` comment at the top of `config.yml` intentionally points at an unversioned schema URL — that exact string is what Sveltia and the editor YAML extension look for.
+
 ## Project Structure
 
 Inside of Dante Astro theme, you'll see the following folders and files:
 
 ```text
 ├── public/
+│   └── admin/          # Sveltia CMS (index.html + config.yml)
 ├── src/
 │   ├── assets/
 │   │   ├── icons/

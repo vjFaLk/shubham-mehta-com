@@ -6,7 +6,7 @@
     "plugins": ["prettier-plugin-astro", "prettier-plugin-tailwindcss"],
     "overrides": [
         {
-            "files": ["*.md", "*.mdx", "*.yaml"],
+            "files": ["*.md", "*.mdx", "*.yaml", "*.yml"],
             "options": {
                 "tabWidth": 2
             }

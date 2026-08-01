@@ -1,0 +1,215 @@
+# Sveltia CMS configuration. Served together with index.html at /admin/.
+# Reference: https://sveltiacms.app/en/docs
+# The comment below is what enables validation and autocomplete, both in editors
+# with the YAML extension and in Sveltia itself, so keep it exactly as written.
+# yaml-language-server: $schema=https://unpkg.com/@sveltia/cms/schema/sveltia-cms.json
+
+backend:
+  name: github
+  repo: vjFaLk/shubham-mehta-com
+  branch: main
+  # `base_url` is left at its default (https://api.netlify.com), so logging in goes
+  # through Netlify's GitHub OAuth provider. That provider has to be installed once
+  # in the Netlify UI — see the "Content editing" section of README.md.
+
+# Where uploads are stored. src/assets/ (not public/) so Astro's asset pipeline
+# optimises the images and the `image()` content schema helper can resolve them.
+media_folder: src/assets/images
+
+# Every collection below overrides `media_folder`/`public_folder` with a path
+# relative to the entry file. That produces `../../assets/images/photo.jpg`, which
+# is the form both `image()` frontmatter fields and relative Markdown image links
+# need. An absolute path would not be resolved by Astro.
+
+media_libraries:
+  default:
+    config:
+      # Rename uploads to `my-photo.jpg` instead of keeping `My Photo (1).JPG`.
+      # Spaces and parentheses in a path are a recurring source of broken images.
+      slugify_filename: true
+
+slug:
+  encoding: ascii
+  clean_accents: true
+
+output:
+  # Leave optional fields out of the frontmatter entirely rather than writing empty
+  # strings. Required: the content schemas apply length limits to some optional
+  # fields, and an empty string would fail those checks and break the build.
+  omit_empty_optional_fields: true
+
+editor:
+  # The preview pane cannot render Astro components, so it never quite matches the
+  # real page. Set to `true` if a rough preview is more useful than the extra width.
+  preview: false
+
+collections:
+  - name: blog
+    label: Blog posts
+    label_singular: Blog post
+    icon: article
+    folder: src/content/blog
+    media_folder: ../../assets/images
+    public_folder: ../../assets/images
+    create: true
+    preview_path: blog/{{slug}}
+    preview_path_date_field: publishDate
+    summary: '{{title}}'
+    sortable_fields:
+      - publishDate
+      - title
+    fields:
+      - name: title
+        label: Title
+        widget: string
+
+      - name: excerpt
+        label: Excerpt
+        widget: text
+        required: false
+        hint: Shown in post listings and used as the meta description when no SEO description is set.
+
+      - name: publishDate
+        label: Publish date
+        widget: datetime
+        type: date
+        format: MMM D YYYY
+        default: '{{now}}'
+
+      - name: updatedDate
+        label: Updated date
+        widget: datetime
+        type: date
+        format: MMM D YYYY
+        required: false
+
+      - name: isFeatured
+        label: Featured
+        widget: boolean
+        default: false
+        required: false
+        hint: Featured posts are highlighted on the home page.
+
+      - name: tags
+        label: Tags
+        widget: list
+        required: false
+        default: []
+
+      # Anchored here and reused by the other two collections — all three content
+      # schemas share the same optional `seo` object.
+      - &seo
+        name: seo
+        label: SEO
+        widget: object
+        required: false
+        collapsed: auto
+        fields:
+          - name: title
+            label: Title
+            widget: string
+            required: false
+            maxlength: 120
+            hint: Overrides the page title in search results. Use 5–120 characters, or leave empty.
+          - name: description
+            label: Description
+            widget: text
+            required: false
+            maxlength: 160
+            hint: Use 15–160 characters, or leave empty.
+          - name: image
+            label: Social image
+            widget: object
+            required: false
+            collapsed: auto
+            fields:
+              - name: src
+                label: Image
+                widget: image
+                required: false
+              - name: alt
+                label: Alt text
+                widget: string
+                required: false
+                hint: Only used when an image is selected.
+          - name: pageType
+            label: Page type
+            widget: select
+            required: false
+            options:
+              - website
+              - article
+
+      - name: body
+        label: Body
+        widget: markdown
+        required: false
+
+  - name: projects
+    label: Projects
+    label_singular: Project
+    icon: work
+    folder: src/content/projects
+    media_folder: ../../assets/images
+    public_folder: ../../assets/images
+    create: true
+    preview_path: projects/{{slug}}
+    preview_path_date_field: publishDate
+    summary: '{{title}}'
+    sortable_fields:
+      - publishDate
+      - title
+    fields:
+      - name: title
+        label: Title
+        widget: string
+
+      - name: description
+        label: Description
+        widget: text
+        required: false
+        hint: Shown in project listings and used as the meta description when no SEO description is set.
+
+      - name: publishDate
+        label: Publish date
+        widget: datetime
+        type: date
+        format: MMM D YYYY
+        default: '{{now}}'
+
+      - name: isFeatured
+        label: Featured
+        widget: boolean
+        default: false
+        required: false
+        hint: Featured projects are highlighted on the home page.
+
+      - *seo
+
+      - name: body
+        label: Body
+        widget: markdown
+        required: false
+
+  - name: pages
+    label: Pages
+    label_singular: Page
+    icon: description
+    description: Standalone pages such as About and Contact. A page is published at /<slug>; header and footer links are edited in src/data/site-config.ts.
+    folder: src/content/pages
+    media_folder: ../../assets/images
+    public_folder: ../../assets/images
+    create: true
+    preview_path: '{{slug}}'
+    summary: '{{title}}'
+    fields:
+      - name: title
+        label: Title
+        widget: string
+
+      - *seo
+
+      - name: body
+        label: Body
+        widget: markdown
+        required: false

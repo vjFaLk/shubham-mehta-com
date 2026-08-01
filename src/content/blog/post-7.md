@@ -1,7 +1,7 @@
 ---
 title: Exploring the Future of Front-End Development with Astro.js
 excerpt: In recent years, we've seen the rise of various tools and frameworks that have revolutionized the way we build web applications. One such exciting addition to the front-end development landscape is Astro.js.
-publishDate: 'October 10 2023'
+publishDate: 'Oct 10 2023'
 tags:
   - Web
   - UX
