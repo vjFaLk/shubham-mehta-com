@@ -62,11 +62,11 @@
         }
     ],
     "hero": {
-        "title": "Hi There & Welcome to My Corner of the Web!",
-        "text": "I'm **Ethan Donovan**, a web developer at Amazing Studio, dedicated to the realms of collaboration and artificial intelligence.\nMy approach involves embracing intuition, conducting just enough research, and leveraging aesthetics as a catalyst for exceptional products.\nI have a profound appreciation for top-notch software, visual design, and the principles of product-led growth.\n\nFeel free to explore some of my coding endeavors on [GitHub](https://github.com/JustGoodUI/dante-astro-theme) or follow me on [Twitter/X](https://twitter.com/justgoodui).",
+        "title": "Let me tell you a story...",
+        "text": "A story about a narrative designer, world builder, and screenwriter, named *Shubham Mehta*. His most recent works include Narrative Design for Suri: The Seventh Note, and writing and researching for Victoria 3 by Paradox Interactive.",
         "image": {
-            "src": "../assets/images/hero.jpg",
-            "alt": "A person sitting at a desk in front of a computer"
+            "src": "../assets/images/headshot-3.jpg",
+            "alt": "Shubham, beard, round frame glasses, captured at a medium close shot. He looks like he is saying something."
         },
         "actions": [
             {
