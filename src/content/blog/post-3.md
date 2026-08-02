@@ -1,7 +1,7 @@
 ---
 title: Communication and Collaboration for Front-End Developers
 excerpt: Front-end development is not just about writing code; it's also about working seamlessly with others to create outstanding user experiences.
-publishDate: 'October 6 2023'
+publishDate: 'Oct 6 2023'
 tags:
   - Web
   - UX
