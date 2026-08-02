@@ -34,9 +34,9 @@ Clicking the button above ☝️ will create a new repo for you that looks exact
 
 ## ⚙️ Configuration Notes
 
-### `site-config.ts`
+### `site-config.json`
 
-All site-wide data and theme options are stored in `src/data/site-config.ts`. It provides a single configuration object used throughout the theme for navigation, branding, hero content, social links, and more.
+All site-wide data and theme options are stored in `src/data/site-config.json`, which is editable from the CMS under **Site settings**. `src/data/site-config.ts` reads that file and exports the single configuration object used throughout the theme for navigation, branding, hero content, social links, and more — that's the module everything imports, so editing either the JSON or the CMS is the same thing.
 
 You can update this file to customize:
 
@@ -47,7 +47,12 @@ You can update this file to customize:
 - Newsletter subscription — form settings suitable for Mailchimp, Formspree, ConvertKit, or other form-based providers. The form supports a custom action URL, configurable email and hidden fields, and an optional honeypot field for spam protection.
 - Pagination — posts per page for blog and projects listings
 
-Images can be referenced either as imports from `src/assets/` (for optimized Astro images) or as string paths from the `public/` directory.
+Images are referenced by path. A path into the assets folder, written relative to `src/data/` (`../assets/images/hero.jpg`), is resolved to a real Astro asset and optimized — this is what the CMS writes when you upload something. Any other string, such as a `public/` path like `/dante-preview.jpg` or a remote URL, is passed through and rendered as a plain `<img>`. `site-config.ts` does that lookup with an eager `import.meta.glob`, which is why the paths have to be relative to `src/data/` rather than the project root.
+
+Two notes if you edit `site-config.ts` itself:
+
+- `astro.config.mjs` reads `site-config.json` directly rather than importing this module, because Astro loads its config before Vite exists to transform `import.meta.glob`.
+- The hero text is a plain textarea in the CMS, not the Markdown editor. It's still rendered as Markdown, but the rich text editor rewrites line breaks on save and the default text relies on single newlines staying within one paragraph.
 
 ### Images
 
@@ -64,6 +69,8 @@ Two files make it up, both in `public/admin/` so Astro copies them to the build 
 
 - `index.html` — loads the CMS from unpkg, pinned to an exact version.
 - `config.yml` — collections and fields, kept in sync with `src/content.config.ts`.
+
+It manages the three content collections (blog posts, projects, pages) plus **Site settings**, which edits `src/data/site-config.json` — navigation, hero, avatar, newsletter form, pagination and the rest of the values described above.
 
 Uploads are written to `src/assets/images/` and referenced with entry-relative paths such as `../../assets/images/photo.jpg`, so they go through Astro's image optimization exactly like the existing content does.
 
@@ -82,7 +89,7 @@ Anyone with push access to the repository can then sign in at `/admin/`.
 
 #### Keeping the config in sync
 
-`config.yml` and `src/content.config.ts` describe the same frontmatter from two directions, so a change to one needs the matching change in the other. Two things worth knowing:
+`config.yml` describes the same data as `src/content.config.ts` (for the collections) and `src/types.ts` (for the site settings), so a change to one needs the matching change in the other. Two things worth knowing:
 
 - Optional fields are omitted from the frontmatter when empty (`output.omit_empty_optional_fields`) instead of being written as empty strings, which the collection schemas would reject.
 - The SEO title and description fields carry length limits in `content.config.ts`. The CMS enforces the maximums; the minimums are only shown as hints, because a minimum-length rule would also fire on an empty optional field and block saving.
