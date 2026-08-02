@@ -37,11 +37,218 @@ output:
   # strings. Required: the content schemas apply length limits to some optional
   # fields, and an empty string would fail those checks and break the build.
   omit_empty_optional_fields: true
+  json:
+    # Match Prettier's settings for this repo so CMS commits don't reformat.
+    indent_size: 4
 
 editor:
   # The preview pane cannot render Astro components, so it never quite matches the
   # real page. Set to `true` if a rough preview is more useful than the extra width.
   preview: false
+
+# One-off files that aren't part of a collection.
+singletons:
+  - name: site_config
+    label: Site settings
+    icon: settings
+    file: src/data/site-config.json
+    format: json
+    media_folder: ../assets/images
+    public_folder: ../assets/images
+    fields:
+      - name: website
+        label: Site URL
+        widget: string
+        type: url
+        hint: Used for canonical URLs, the sitemap and the RSS feed. Changing it needs a rebuild, which saving here triggers.
+
+      - name: title
+        label: Site title
+        widget: string
+
+      - name: subtitle
+        label: Subtitle
+        widget: string
+        required: false
+        hint: Shown under the site title in the header.
+
+      - name: description
+        label: Description
+        widget: text
+        hint: Default meta description for pages that don't set their own.
+
+      - name: avatar
+        label: Avatar
+        widget: object
+        required: false
+        collapsed: auto
+        fields:
+          - name: src
+            label: Image
+            widget: image
+            required: false
+          - name: alt
+            label: Alt text
+            widget: string
+            required: false
+
+      - name: image
+        label: Social share image
+        widget: object
+        required: false
+        collapsed: auto
+        hint: Used for link previews when a page doesn't set its own SEO image.
+        fields:
+          - name: src
+            label: Image
+            widget: image
+            required: false
+          - name: alt
+            label: Alt text
+            widget: string
+            required: false
+
+      # Link lists all share the same {text, href} shape.
+      - &nav_links
+        name: headerNavLinks
+        label: Header navigation
+        widget: list
+        required: false
+        collapsed: false
+        summary: '{{fields.text}}'
+        fields:
+          - name: text
+            label: Label
+            widget: string
+          - name: href
+            label: URL
+            widget: string
+
+      - <<: *nav_links
+        name: footerNavLinks
+        label: Footer navigation
+
+      - <<: *nav_links
+        name: socialLinks
+        label: Social links
+
+      - name: hero
+        label: Home page hero
+        widget: object
+        required: false
+        collapsed: auto
+        fields:
+          - name: title
+            label: Heading
+            widget: string
+            required: false
+          - name: text
+            label: Text
+            widget: text
+            required: false
+            # Deliberately a plain textarea rather than the Markdown widget: the
+            # rich text editor rewrites line breaks when it saves, and this text
+            # relies on single newlines staying inside one paragraph.
+            hint: Markdown is supported. A blank line starts a new paragraph.
+          - name: image
+            label: Image
+            widget: object
+            required: false
+            collapsed: auto
+            fields:
+              - name: src
+                label: Image
+                widget: image
+                required: false
+              - name: alt
+                label: Alt text
+                widget: string
+                required: false
+              - name: caption
+                label: Caption
+                widget: string
+                required: false
+          - name: actions
+            label: Buttons
+            widget: list
+            required: false
+            collapsed: false
+            summary: '{{fields.text}}'
+            fields:
+              - name: text
+                label: Label
+                widget: string
+              - name: href
+                label: URL
+                widget: string
+
+      - name: subscribe
+        label: Newsletter form
+        widget: object
+        required: false
+        collapsed: auto
+        fields:
+          - name: enabled
+            label: Enabled
+            widget: boolean
+            default: false
+            required: false
+          - name: title
+            label: Heading
+            widget: string
+            required: false
+          - name: text
+            label: Text
+            widget: text
+            required: false
+          - name: form
+            label: Form
+            widget: object
+            required: false
+            collapsed: auto
+            fields:
+              - name: action
+                label: Form action URL
+                widget: string
+                required: false
+                hint: The endpoint your provider gives you, e.g. Mailchimp or Formspree. The form is hidden until this is set.
+              - name: emailFieldName
+                label: Email field name
+                widget: string
+                required: false
+                hint: Defaults to `email`. Only change this if your provider expects something else.
+              - name: hiddenFields
+                label: Hidden fields
+                widget: list
+                required: false
+                collapsed: false
+                summary: '{{fields.name}}'
+                fields:
+                  - name: name
+                    label: Name
+                    widget: string
+                  - name: value
+                    label: Value
+                    widget: string
+              - name: honeypotFieldName
+                label: Honeypot field name
+                widget: string
+                required: false
+                hint: Optional anti-spam field. Leave empty unless your provider supports one.
+
+      - name: postsPerPage
+        label: Posts per page
+        widget: number
+        value_type: int
+        min: 1
+        default: 8
+
+      - name: projectsPerPage
+        label: Projects per page
+        widget: number
+        value_type: int
+        min: 1
+        default: 8
 
 collections:
   - name: blog

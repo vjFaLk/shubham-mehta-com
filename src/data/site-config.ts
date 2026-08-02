@@ -1,94 +1,36 @@
-import avatar from '../assets/images/avatar.jpg';
-import hero from '../assets/images/hero.jpg';
-import type { SiteConfig } from '../types';
+import type { ImageInput, SiteConfig } from '../types';
+import rawSiteConfig from './site-config.json';
+
+/**
+ * The site-wide values live in `site-config.json` so they can be edited through
+ * Sveltia CMS at /admin/ — a CMS cannot write TypeScript. This module is the
+ * bridge: it reads that data and hands the rest of the theme the same shape it
+ * always got, so nothing that imports `site-config` had to change.
+ *
+ * Images are the one value that needs work. JSON can only hold a path, while
+ * Astro needs an `ImageMetadata` object to optimize an image, so the assets
+ * folder is imported eagerly and paths are looked up in it. Anything not found
+ * there — a `public/` path like `/dante-preview.jpg`, or a remote URL — is
+ * passed through as a string and rendered as a plain `<img>` by `CustomImage`.
+ *
+ * Paths are written relative to this directory (`../assets/images/hero.jpg`),
+ * which is exactly the key `import.meta.glob` produces and exactly what the CMS
+ * writes for the media folder configured in public/admin/config.yml.
+ */
+const assets = import.meta.glob<{ default: ImageMetadata }>('../assets/images/*.{jpeg,jpg,png,gif,webp,avif,svg}', { eager: true });
+
+type RawImageInput = { src: string; alt?: string; caption?: string };
+
+const resolveImage = (image?: RawImageInput): ImageInput | undefined => (image?.src ? { ...image, src: assets[image.src]?.default ?? image.src } : undefined);
 
 const siteConfig: SiteConfig = {
-    website: 'https://example.com',
-    avatar: {
-        src: avatar,
-        alt: 'Ethan Donovan'
-    },
-    title: 'Dante',
-    subtitle: 'Minimal Astro.js theme',
-    description: 'Astro.js and Tailwind CSS theme for blog and portfolio by justgoodui.com',
-    image: {
-        src: '/dante-preview.jpg',
-        alt: 'Dante - Astro.js and Tailwind CSS theme'
-    },
-    headerNavLinks: [
-        {
-            text: 'Home',
-            href: '/'
-        },
-        {
-            text: 'Projects',
-            href: '/projects'
-        },
-        {
-            text: 'Blog',
-            href: '/blog'
-        },
-        {
-            text: 'Tags',
-            href: '/tags'
-        }
-    ],
-    footerNavLinks: [
-        {
-            text: 'About',
-            href: '/about'
-        },
-        {
-            text: 'Contact',
-            href: '/contact'
-        },
-        {
-            text: 'Terms',
-            href: '/terms'
-        },
-        {
-            text: 'Download theme',
-            href: 'https://github.com/JustGoodUI/dante-astro-theme'
-        }
-    ],
-    socialLinks: [
-        {
-            text: 'Dribbble',
-            href: 'https://dribbble.com/'
-        },
-        {
-            text: 'Instagram',
-            href: 'https://instagram.com/'
-        },
-        {
-            text: 'X/Twitter',
-            href: 'https://twitter.com/'
-        }
-    ],
+    ...rawSiteConfig,
+    avatar: resolveImage(rawSiteConfig.avatar),
+    image: resolveImage(rawSiteConfig.image),
     hero: {
-        title: 'Hi There & Welcome to My Corner of the Web!',
-        text: "I'm **Ethan Donovan**, a web developer at Amazing Studio, dedicated to the realms of collaboration and artificial intelligence.\nMy approach involves embracing intuition, conducting just enough research, and leveraging aesthetics as a catalyst for exceptional products.\nI have a profound appreciation for top-notch software, visual design, and the principles of product-led growth.\n\nFeel free to explore some of my coding endeavors on [GitHub](https://github.com/JustGoodUI/dante-astro-theme) or follow me on [Twitter/X](https://twitter.com/justgoodui).",
-        image: {
-            src: hero,
-            alt: 'A person sitting at a desk in front of a computer'
-        },
-        actions: [
-            {
-                text: 'Get in Touch',
-                href: '/contact'
-            }
-        ]
-    },
-    subscribe: {
-        enabled: true,
-        title: 'Subscribe to Dante Newsletter',
-        text: 'One update per week. All the latest posts directly in your inbox.',
-        form: {
-            action: '#'
-        }
-    },
-    postsPerPage: 8,
-    projectsPerPage: 8
+        ...rawSiteConfig.hero,
+        image: resolveImage(rawSiteConfig.hero?.image)
+    }
 };
 
 export default siteConfig;
