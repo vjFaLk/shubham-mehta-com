@@ -13,10 +13,10 @@ Suri: The Seventh Note is set in an original fantasy world where music is magic.
 
 ![](../../assets/images/aya.jpg "Ajira talks to her mother after a brief disappearance")
 
-[![](../../assets/images/j-l.jpg)](Ajira seeks a cure for her ailing mother)
+![](../../assets/images/j-l.jpg "Ajira seeks a cure for her ailing mother")
 
 I wrote lore bibles to centralize our understanding of the world. Provided the art team with briefs for the setting and the characters. This helped them develop background assets and characters that felt like thy belonged to the same world. 
 
 I also wrote all the dialogue, inventory entries, and cinematics for the game. Some of which can be seen below!
 
-[![](../../assets/images/jiiiii.jpg)](The corruption that plagues this magical island)
+![](../../assets/images/jiiiii.jpg "The corruption that plagues this magical island")
