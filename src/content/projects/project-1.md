@@ -1,7 +1,8 @@
 ---
-title: 'EcoBuddy: Sustainable Living App'
-description: EcoBuddy is a mobile app that gamifies sustainable living. Users can set eco-friendly goals, track their carbon footprint, and earn virtual rewards for adopting environmentally conscious habits.
-publishDate: Jan 2 2024
+title: 'Suri: The Seventh Note'
+description: 'Narrative Designer for the Indie Rhythm Platformer, Suri: The Seventh Note.'
+publishDate: Aug 4 2026
+isFeatured: true
 seo:
   image:
     src: ../../assets/images/project-1.jpg
