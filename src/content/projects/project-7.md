@@ -1,62 +1,25 @@
 ---
-title: CryptoTrader - Cryptocurrency Portfolio Manager
-description: CryptoTrader Dashboard is a comprehensive web application designed to empower cryptocurrency enthusiasts with tools to manage and optimize their digital asset portfolios.
-publishDate: 'Jan 10 2026'
+title: 'Victoria 3: Pivot of Empire'
+description: Game Writer and Regional Consultant
+publishDate: Aug 4 2026
 isFeatured: true
 seo:
   image:
-    src: '../../assets/images/project-7.jpg'
+    src: ../../assets/images/project-7.jpg
 ---
 
-![Project preview](../../assets/images/project-7.jpg)
+[![Project preview](../../assets/images/capsule_616x353.jpg)](https://store.steampowered.com/app/3174360/Victoria_3_Pivot_of_Empire__Immersion_Pack/)
 
-**Note:** This case study is entirely fictional and created for the purpose of showcasing [Dante Astro.js theme functionality](https://justgoodui.com/astro-themes/dante/).
+# Game Writer
 
-**Project Overview:**
-CryptoTrader Dashboard is a comprehensive web application designed to empower cryptocurrency enthusiasts with tools to manage and optimize their digital asset portfolios. By providing real-time market data, analytics, and portfolio tracking, the dashboard offers a seamless experience for users to monitor and enhance their cryptocurrency investments.
+I played a central role in developing the narrative content for this DLC. The process began with extensive research around the time period. I prepared a database of important individuals, and events, that shaped the 19th and 20th centuries of the Indian sub-continent. 
 
-## Objectives
+As I built this database, I also worked on potential Journal Entries that could occur in the game. Journal Entries are the primary narrative element of the game, they provide the player with cultural context and tie the mechanics to the on ground reality of the world they are simulating. Writing these entries involved understanding the mechanics so that the prompts could push and pull on the relevant stats. As well as writing, brief but compelling bits of dialogue that could quickly immerse the player. 
 
-1. Develop a user-friendly and feature-rich dashboard that consolidates real-time data from various cryptocurrency exchanges.
-2. Provide tools for users to analyze market trends, track their portfolio performance, and make informed investment decisions.
-3. Create a secure and efficient platform that ensures users have a holistic view of their cryptocurrency holdings.
+Here are some examples of the entries that the player encounters in the game: 
 
-## Features
+![](../../assets/images/dd136_16.png)
 
-1. **Multi-Exchange Integration:**
+![](../../assets/images/dd136_13.png)
 
-- CryptoTrader Dashboard aggregates data from multiple cryptocurrency exchanges, allowing users to view their entire portfolio in one centralized location.
-- Real-time updates provide the latest market prices, trading volumes, and order book data.
-
-2. **Portfolio Analytics:**
-
-- Users can analyze their portfolio's performance through interactive charts and graphs.
-- The dashboard offers insights into historical performance, asset allocation, and profit/loss over time.
-
-3. **Risk Management Tools:**
-
-- Advanced risk management tools help users assess the volatility and potential risks associated with their cryptocurrency investments.
-- Users receive alerts for significant market fluctuations or changes in their portfolio value.
-
-4. **Automated Transaction Tracking:**
-
-- The dashboard automatically tracks and records users' cryptocurrency transactions, simplifying the process of updating and managing portfolios.
-- Users can categorize transactions, add notes, and maintain a comprehensive transaction history.
-
-5. **News and Market Insights:**
-
-- A dedicated section provides real-time news and market insights relevant to users' cryptocurrency holdings.
-- Users can stay informed about market trends, regulatory developments, and news affecting their investment decisions.
-
-## Technology Stack
-
-- Frontend: React for a responsive and interactive user interface.
-- Backend: Django for server-side logic and API integration.
-- Database: PostgreSQL for efficient storage and retrieval of portfolio and market data.
-- API Integration: Integration with cryptocurrency exchange APIs for real-time market data.
-
-## Outcome
-
-CryptoTrader Dashboard has become a trusted companion for cryptocurrency investors, offering a consolidated and user-friendly platform for managing their portfolios. The robust analytics, real-time market data, and risk management tools empower users to make informed decisions and navigate the dynamic world of cryptocurrency with confidence.
-
-**Note:** This case study is entirely fictional and created for the purpose of showcasing [Dante Astro.js theme functionality](https://justgoodui.com/astro-themes/dante/).
+![](../../assets/images/dd136_37.png)
