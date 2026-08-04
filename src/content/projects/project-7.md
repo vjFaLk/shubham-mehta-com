@@ -15,6 +15,8 @@ seo:
 
 # Game Writer and Regional Consultant
 
+Victoria 3 is a grand simulation game by Paradox Interactive. This DLC focused on the Indian subcontinent during the 19th and 20th Centuries. 
+
 I played a central role in developing the **narrative content** for this DLC. The process began with extensive **research** around the period. I prepared a database of important individuals, and events, that shaped the 19th and 20th centuries of the Indian sub-continent.
 
 As I built this database, I also worked on potential Journal Entries that could occur in the game. Journal Entries are the primary narrative element for Victoria 3, they provide the player with cultural context and tie the mechanics to the ground reality of the world they are simulating.
