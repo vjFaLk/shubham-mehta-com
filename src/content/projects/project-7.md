@@ -4,8 +4,11 @@ description: Game Writer and Regional Consultant
 publishDate: Aug 4 2026
 isFeatured: true
 seo:
+  title: 'Victoria 3: Pivot of Empire'
+  description: 'Game Writer and Regional Consultant for Victoria 3: Pivot of Empire.'
   image:
-    src: ../../assets/images/project-7.jpg
+    src: ../../assets/images/capsule_616x353-1.jpg
+  pageType: website
 ---
 
 [![Project preview](../../assets/images/capsule_616x353.jpg)](https://store.steampowered.com/app/3174360/Victoria_3_Pivot_of_Empire__Immersion_Pack/)
