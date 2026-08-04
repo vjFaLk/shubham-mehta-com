@@ -5,10 +5,8 @@ seo:
   description: Get in touch through email or social media! Let me know how I can help.
 ---
 
-Thank you for reaching out! Whether you have a question, a suggestion, or just want to share your thoughts, I'm all ears. Feel free to get in touch through any of the methods below:
+Curious about something I wrote? Want to hire me? Looking to collaborate? Feel free to reach out! 
 
-_Email:_
-Feel free to drop me an email at [example@example.com](mailto:example@example.com), and I'll do my best to respond as soon as possible.
+Email me _at_ **mehta[dot]shubham[at]gmail[dot]com**, and I'll do my best to respond as soon as possible.
 
-_Social Media:_
-Connect with me on social media as well. Find me on [Twitter](https://twitter.com) or [LinkedIn](https://www.linkedin.com/).
+For (somewhat) regular updates, you can follow me on [BlueSky](https://bsky.app/profile/loregarden.bsky.social), [Twitter](https://twitter.com/lore_garden) or [LinkedIn](https://www.linkedin.com/in/shubham-m-787a6a226/).
