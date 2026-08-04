@@ -1,15 +1,14 @@
 {
     "website": "https://example.com",
-    "title": "Dante",
-    "subtitle": "Minimal Astro.js theme",
-    "description": "Astro.js and Tailwind CSS theme for blog and portfolio by justgoodui.com",
+    "title": "Shubham Mehta",
+    "subtitle": "Narrative Designer, Screenwriter, Worldbuilder",
+    "description": "Here to write a memorable story",
     "avatar": {
-        "src": "../assets/images/avatar.jpg",
-        "alt": "Ethan Donovan"
+        "src": "../assets/images/shubham.png",
+        "alt": "Shubham Mehta"
     },
     "image": {
-        "src": "/dante-preview.jpg",
-        "alt": "Dante - Astro.js and Tailwind CSS theme"
+        "src": "../assets/images/untitled_artwork.jpg"
     },
     "headerNavLinks": [
         {
@@ -23,10 +22,6 @@
         {
             "text": "Blog",
             "href": "/blog"
-        },
-        {
-            "text": "Tags",
-            "href": "/tags"
         }
     ],
     "footerNavLinks": [
@@ -37,28 +32,20 @@
         {
             "text": "Contact",
             "href": "/contact"
-        },
-        {
-            "text": "Terms",
-            "href": "/terms"
-        },
-        {
-            "text": "Download theme",
-            "href": "https://github.com/JustGoodUI/dante-astro-theme"
         }
     ],
     "socialLinks": [
         {
-            "text": "Dribbble",
-            "href": "https://dribbble.com/"
-        },
-        {
-            "text": "Instagram",
-            "href": "https://instagram.com/"
-        },
-        {
             "text": "X/Twitter",
-            "href": "https://twitter.com/"
+            "href": "https://twitter.com/lore_garden"
+        },
+        {
+            "text": "BlueSky",
+            "href": "https://bsky.app/profile/loregarden.bsky.social"
+        },
+        {
+            "text": "LinkedIn",
+            "href": "https://www.linkedin.com/in/shubham-m-787a6a226/"
         }
     ],
     "hero": {
@@ -75,14 +62,6 @@
             }
         ]
     },
-    "subscribe": {
-        "enabled": true,
-        "title": "Subscribe to Dante Newsletter",
-        "text": "One update per week. All the latest posts directly in your inbox.",
-        "form": {
-            "action": "#"
-        }
-    },
-    "postsPerPage": 8,
-    "projectsPerPage": 8
+    "postsPerPage": 3,
+    "projectsPerPage": 5
 }
