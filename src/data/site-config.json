@@ -13,7 +13,7 @@
     "headerNavLinks": [
         {
             "text": "Home",
-            "href": "/Home"
+            "href": "/"
         },
         {
             "text": "Projects",
