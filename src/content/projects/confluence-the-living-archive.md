@@ -1,22 +1,18 @@
 ---
 title: 'Confluence: The Living Archive'
-description: 'Narrative Designer for the Indie Rhythm Platformer, Suri: The Seventh Note.'
+description: Creative Lead, Writer
 publishDate: Aug 4 2026
 isFeatured: true
+seo:
+  title: Confluence
+  description: Creative Lead
+  image:
+    src: ../../assets/images/preview_posts.png
+  pageType: website
 ---
 
-[![Project preview](../../assets/images/suri.jpg)](https://www.youtube.com/watch?v=Shj-UGJX0IU)
+[![Project preview](../../assets/images/preview_posts.png)](publishinggoblin.com/confluence/)
 
-# Narrative Design
+# Creative Lead
 
-Suri: The Seventh Note is set in an original fantasy world where music is magic. As the narrative designer, I worked with the design and art teams to develop a story, character, and world that reflected the rhythm driven gameplay. 
-
-![](../../assets/images/aya.jpg "Ajira talks to her mother after a brief disappearance")
-
-![](../../assets/images/j-l.jpg "Ajira seeks a cure for her ailing mother")
-
-I wrote lore bibles to centralize our understanding of the world. Provided the art team with briefs for the setting and the characters. This helped them develop background assets and characters that felt like thy belonged to the same world. 
-
-I also wrote all the dialogue, inventory entries, and cinematics for the game. Some of which can be seen below!
-
-![](../../assets/images/jiiiii.jpg "The corruption that plagues this magical island")
+Confluence: The Living Archive is a TTRPG by the Publishing Goblin. As the creative led an international team of 15 to develop the world for a brand-new RPG. Together, we designed a colorful and diverse world with unique settings, cultures, and people. A great part about this experience was how everyone helped create a stable and joyous work environment focused on meaningful work.
