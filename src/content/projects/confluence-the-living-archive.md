@@ -8,7 +8,7 @@ seo:
   description: Creative Lead
   image:
     src: ../../assets/images/preview_posts.jpg
-  pageType: website
+  pageType: article
 ---
 
 [![Project preview](../../assets/images/preview_posts.jpg)](publishinggoblin.com/confluence/)
