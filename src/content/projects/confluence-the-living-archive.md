@@ -7,11 +7,11 @@ seo:
   title: Confluence
   description: Creative Lead
   image:
-    src: ../../assets/images/preview_posts.png
+    src: ../../assets/images/preview_posts.jpg
   pageType: website
 ---
 
-[![Project preview](../../assets/images/preview_posts.png)](publishinggoblin.com/confluence/)
+[![Project preview](../../assets/images/preview_posts.jpg)](publishinggoblin.com/confluence/)
 
 # Creative Lead
 
