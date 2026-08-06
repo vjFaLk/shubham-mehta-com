@@ -1,6 +1,6 @@
 ---
 title: 'Suri: The Seventh Note'
-description: 'Narrative Designer for the Indie Rhythm Platformer, Suri: The Seventh Note.'
+description: Narrative Designer
 publishDate: Aug 4 2026
 isFeatured: true
 ---
