@@ -10,7 +10,7 @@ seo:
     src: ../../assets/images/preview_posts-1.jpg
 ---
 
-![](../../assets/images/preview_posts-1.jpg)
+[![](../../assets/images/preview_posts-1.jpg)](publishinggoblin.com/confluence/)
 
 # Creative Lead
 
