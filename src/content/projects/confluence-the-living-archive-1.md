@@ -1,7 +1,7 @@
 ---
 title: 'Confluence: The Living Archive'
 description: Creative Lead, Writer
-publishDate: Aug 6 2026
+publishDate: Aug 4 2026
 isFeatured: true
 seo:
   title: Confluence
