@@ -1,7 +1,7 @@
 ---
 title: 'Victoria 3: Pivot of Empire'
 description: Game Writer and Regional Consultant
-publishDate: Aug 4 2026
+publishDate: Aug 6 2026
 isFeatured: true
 seo:
   title: 'Victoria 3: Pivot of Empire'
