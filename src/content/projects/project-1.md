@@ -1,7 +1,7 @@
 ---
 title: 'Suri: The Seventh Note'
 description: Narrative Designer
-publishDate: Aug 4 2026
+publishDate: Aug 5 2026
 isFeatured: true
 ---
 
