@@ -1,7 +1,7 @@
 ---
 title: Slay Your Dues
 description: Game Writer
-publishDate: Aug 5 2026
+publishDate: Aug 3 2026
 isFeatured: false
 ---
 
