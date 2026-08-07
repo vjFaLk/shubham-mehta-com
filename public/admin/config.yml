@@ -391,6 +391,19 @@ collections:
           - Fiction
         hint: Decides which listing page the project appears on.
 
+      # Uploads to public/documents rather than src/assets, because Astro's asset
+      # pipeline only resolves images — a PDF under src/ would never be served.
+      # From public/ it gets a stable, shareable URL and is embedded on the
+      # project page.
+      - name: pdf
+        label: PDF
+        widget: file
+        required: false
+        accept: application/pdf
+        media_folder: /public/documents
+        public_folder: /documents
+        hint: Optional. Shown as an embedded, scrollable viewer at the end of the project page.
+
       - name: publishDate
         label: Publish date
         widget: datetime

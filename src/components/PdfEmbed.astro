@@ -1,0 +1,21 @@
+---
+/**
+ * Embeds a PDF served from public/, e.g. `/documents/script.pdf`.
+ *
+ * The link below the viewer is not a nicety: iOS Safari renders only the first
+ * page of a PDF in an iframe and will not scroll it, so there always needs to be
+ * a way out to the file itself.
+ */
+type Props = { src: string; title?: string; class?: string };
+
+const { src, title, class: className } = Astro.props;
+
+const label = title ? `${title} (PDF)` : 'Embedded PDF';
+---
+
+<figure class:list={['not-prose', className]}>
+    <iframe class="border-main h-[80vh] min-h-96 w-full border border-dashed" src={src} title={label} loading="lazy"></iframe>
+    <figcaption class="mt-2 text-sm">
+        <a class="hover:underline hover:underline-offset-2" href={src} target="_blank" rel="noopener">Open {title ?? 'PDF'} in a new tab</a>
+    </figcaption>
+</figure>

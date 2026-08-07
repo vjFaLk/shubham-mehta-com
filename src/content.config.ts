@@ -47,6 +47,10 @@ const projects = defineCollection({
             title: z.string(),
             description: z.string().optional(),
             type: z.enum(projectTypeNames),
+            // Path to a PDF under public/, e.g. `/documents/script.pdf`. Not an
+            // `image()` asset: Astro's pipeline only resolves images, so PDFs are
+            // served straight from public/ at a stable, shareable URL.
+            pdf: z.string().optional(),
             publishDate: z.coerce.date(),
             isFeatured: z.boolean().default(false),
             seo: seoSchema(image).optional()
