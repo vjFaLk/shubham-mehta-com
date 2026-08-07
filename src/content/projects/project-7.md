@@ -12,7 +12,7 @@ seo:
   pageType: website
 ---
 
-[![Project preview](../../assets/images/capsule_616x353.jpg)](https://store.steampowered.com/app/3174360/Victoria_3_Pivot_of_Empire__Immersion_Pack/)
+[![Project preview](../../assets/images/capsule_616x353.jpg "Victoria 3 Steam Page")](https://store.steampowered.com/app/3174360/Victoria_3_Pivot_of_Empire__Immersion_Pack/)
 
 # Game Writer and Regional Consultant
 
