@@ -1,6 +1,7 @@
 ---
 title: Emerald Templars
 description: Worldbuilder
+type: Game
 publishDate: Aug 2 2026
 isFeatured: false
 seo:

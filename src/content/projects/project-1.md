@@ -1,6 +1,7 @@
 ---
 title: 'Suri: The Seventh Note'
 description: Narrative Designer
+type: Game
 publishDate: Aug 5 2026
 isFeatured: true
 ---

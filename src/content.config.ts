@@ -1,6 +1,7 @@
 import { glob } from 'astro/loaders';
 import { z } from 'astro/zod';
 import { defineCollection, type ImageFunction } from 'astro:content';
+import { projectTypeNames } from './data/project-types';
 
 const imageSchema = (image: ImageFunction) =>
     z.object({
@@ -45,6 +46,7 @@ const projects = defineCollection({
         z.object({
             title: z.string(),
             description: z.string().optional(),
+            type: z.enum(projectTypeNames),
             publishDate: z.coerce.date(),
             isFeatured: z.boolean().default(false),
             seo: seoSchema(image).optional()

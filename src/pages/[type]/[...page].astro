@@ -1,0 +1,42 @@
+---
+import type { GetStaticPathsOptions, Page } from 'astro';
+import { type CollectionEntry, getCollection } from 'astro:content';
+import Pagination from '../../components/Pagination.astro';
+import ProjectPreview from '../../components/ProjectPreview.astro';
+import { projectTypes } from '../../data/project-types';
+import siteConfig from '../../data/site-config';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { sortItemsByDateDesc } from '../../utils/data-utils';
+
+/**
+ * One listing page per project type, at /games, /screenwriting and /fiction.
+ * Only those three slugs are generated, so this route never collides with the
+ * `[...id]` catch-all that renders the `pages` collection.
+ */
+export async function getStaticPaths({ paginate }: GetStaticPathsOptions) {
+    const projects = (await getCollection('projects')).sort(sortItemsByDateDesc);
+
+    return projectTypes.flatMap((projectType) =>
+        paginate(
+            projects.filter((project) => project.data.type === projectType.name),
+            {
+                params: { type: projectType.slug },
+                props: { label: projectType.label, description: projectType.description },
+                pageSize: siteConfig.projectsPerPage || 6
+            }
+        )
+    );
+}
+
+type Props = { page: Page<CollectionEntry<'projects'>>; label: string; description: string };
+
+const { page, label, description } = Astro.props;
+const projects = page.data;
+---
+
+<BaseLayout title={label} description={description} showHeader={false}>
+    <h1 class="mb-12 font-serif text-2xl leading-tight italic sm:mb-16 sm:text-4xl">{label}</h1>
+    {projects.map((project) => <ProjectPreview project={project} class="mb-10 sm:mb-12" />)}
+    {projects.length === 0 && <p class="text-sm leading-normal">Nothing here yet — check back soon.</p>}
+    {page.lastPage > 1 && <Pagination page={page} class="my-16 sm:my-24" />}
+</BaseLayout>

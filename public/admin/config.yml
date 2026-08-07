@@ -366,6 +366,9 @@ collections:
     sortable_fields:
       - publishDate
       - title
+    view_groups:
+      - label: Type
+        field: type
     fields:
       - name: title
         label: Title
@@ -376,6 +379,17 @@ collections:
         widget: text
         required: false
         hint: Shown in project listings and used as the meta description when no SEO description is set.
+
+      # Options must match src/data/project-types.ts, which drives both the
+      # content schema and the /games, /screenwriting and /fiction pages.
+      - name: type
+        label: Type
+        widget: select
+        options:
+          - Game
+          - Screenwriting
+          - Fiction
+        hint: Decides which listing page the project appears on.
 
       - name: publishDate
         label: Publish date

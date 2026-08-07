@@ -1,6 +1,7 @@
 ---
 title: 'Confluence: The Living Archive'
 description: Creative Lead, Writer
+type: Game
 publishDate: Aug 4 2026
 isFeatured: true
 seo:

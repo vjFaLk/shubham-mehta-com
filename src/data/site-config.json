@@ -13,16 +13,24 @@
     },
     "headerNavLinks": [
         {
-            "text": "Home",
-            "href": "/"
-        },
-        {
-            "text": "Game Projects",
-            "href": "/projects"
+            "text": "Games",
+            "href": "/games"
         },
         {
             "text": "Screenwriting",
-            "href": "/blog"
+            "href": "/screenwriting"
+        },
+        {
+            "text": "Fiction",
+            "href": "/fiction"
+        },
+        {
+            "text": "Contact",
+            "href": "/contact"
+        },
+        {
+            "text": "About",
+            "href": "/about"
         }
     ],
     "footerNavLinks": [
