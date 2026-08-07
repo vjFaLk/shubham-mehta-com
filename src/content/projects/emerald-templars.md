@@ -1,7 +1,7 @@
 ---
 title: Emerald Templars
 description: Worldbuilder
-publishDate: Aug 6 2026
+publishDate: Aug 2 2026
 isFeatured: false
 seo:
   title: Emerald Templars
