@@ -11,7 +11,7 @@ seo:
     src: ../../assets/images/preview_posts-1.jpg
 ---
 
-[[![](../../assets/images/preview_posts-1.jpg "Confluence: The Living Archive")](http://publishinggoblin.com/confluence/)](http://publishinggoblin.com/confluence/)
+[![](../../assets/images/preview_posts-1.jpg "Confluence: The Living Archive")](http://publishinggoblin.com/confluence/)
 
 # Creative Lead
 
