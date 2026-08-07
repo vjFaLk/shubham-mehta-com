@@ -10,10 +10,10 @@ import rawSiteConfig from './site-config.json';
  * Images are the one value that needs work. JSON can only hold a path, while
  * Astro needs an `ImageMetadata` object to optimize an image, so the assets
  * folder is imported eagerly and paths are looked up in it. Anything not found
- * there — a `public/` path like `/dante-preview.jpg`, or a remote URL — is
+ * there — a `public/` path like `/favicon.svg`, or a remote URL — is
  * passed through as a string and rendered as a plain `<img>` by `CustomImage`.
  *
- * Paths are written relative to this directory (`../assets/images/hero.jpg`),
+ * Paths are written relative to this directory (`../assets/images/shubham.png`),
  * which is exactly the key `import.meta.glob` produces and exactly what the CMS
  * writes for the media folder configured in public/admin/config.yml.
  */
