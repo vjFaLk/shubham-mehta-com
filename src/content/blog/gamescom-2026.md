@@ -19,11 +19,27 @@ Gamescom itself is everything else. Imagine multiple halls the size of Comic Con
 
 ![](../../assets/images/img_1937.jpeg)
 
+![](../../assets/images/img_1921.jpeg)
+
+![](../../assets/images/img_1823.jpeg)
+
 Then you have a whole hall for indie games, with innumerable Devs from across the world, selected to showcase their unique games. This is where I got to meet up with the lovely folks behind [Fishbowl](https://store.steampowered.com/app/1638070/Fishbowl/), as well as [Raji](https://store.steampowered.com/app/4096880/Raji_Kaliyuga/) and [Appa](https://store.steampowered.com/app/3503500/Appa/).
+
+![](../../assets/images/img_1973.jpg)
+
+![](../../assets/images/img_2124.jpeg)
+
+![](../../assets/images/img_2114.jpeg)
 
 And you have multiple booths setup by countries showcasing the talent from their homes. Whether its publishing services, Co-Dev services, or just games that they are proud off.
 
+![](../../assets/images/20260826_124721.jpg)
+
 There are dedicated areas for independent artists to sell their crafts. From prints, to pins, to plushies. Undoubtedly this is where your wallet is under greatest threat.
+
+![](../../assets/images/img_2087.jpeg)
+
+![](../../assets/images/camphoto_1804928587.jpeg)
 
 So that’s, briefly, [Gamescom and GamescomDev](https://dev.gamescom.global/about-gamescom-dev/). If you’d like, you can read more on their website where they probably do a better job of explaining everything.
 
@@ -87,11 +103,11 @@ So if you're wondering if you should go to Gamescom, I hope this gave you some i
 
 # How it came to be
 
-On 25th June, I came across the post on the [Gamedev.In](http://Gamedev.In) (GDI) server announcing a chance for 2 devs to go to Gamescom. Even though I’ve worked as a Narrative Designer in the games industry for the last 5 years, I hadn’t actually heard about Gamescom. I knew about GDC, and PAX, and Gen Con, but somehow the biggest gaming convention had escaped my notice.
+On 25th June, I came across the post on the [Gamedev.In](http://Gamedev.In) server announcing a chance for 2 devs to go to Gamescom. Even though I’ve worked as a Narrative Designer in the games industry for the last 5 years, I hadn’t actually heard about Gamescom. I knew about GDC, and PAX, and Gen Con, but somehow the biggest gaming convention had escaped my notice.
 
-After GDI’s announcement, I dug into it and discovered that it was an incredible event that blended developer conference and games convention into one week long extravaganza. I applied because this year I’ve been pushing myself to put myself out there more. This felt like a good opportunity and really, what was the harm in applying?
+After [Gamedev.In](http://Gamedev.In)’s announcement, I dug into it and discovered that it was an incredible event that blended developer conference and games convention into one week long extravaganza. I applied because this year I’ve been pushing myself to put myself out there more. This felt like a good opportunity and really, what was the harm in applying?
 
-A few weeks later, I got a call from Vivek from GDI. He told me that I had made the shortlist but they needed to know if I could afford the trip. This had been a criteria on the application form as well so I wasn’t surprised. But as I spoke to Vivek, I wondered if I this was where I wanted to spend my hard earned savings.
+A few weeks later, I got a call from Vivek from [Gamedev.In](http://Gamedev.In). He told me that I had made the shortlist but they needed to know if I could afford the trip. This had been a criteria on the application form as well so I wasn’t surprised. But as I spoke to Vivek, I wondered if I this was where I wanted to spend my hard earned savings.
 
 I knew that I had the money, but it was a significant chunk of what I had saved up over the years. I countered this with the thought that even if I couldn’t afford to spend these savings, I could find some more resources to enable this opportunity.
 
@@ -122,6 +138,8 @@ There were also micro-talks and some key presentations. All of them were excelle
 
 After the talks and meals, a bunch of scholars made plans to get some food. A small group of five turned into a large gathering of 20. It was pretty great. (All this because I spoke to people and asked if I could tag along with them.)
 
+![](../../assets/images/dscf2184-1.jpeg)
+
 ## Day 2 - Talks and finding your footing
 
 This was the first real day of GamescomDev. Despite all the advice, I went in too strong and tried to do everything. I also tried to go to the event that everyone was hyped by, instead of the one that I was more curious about. I quickly found myself bored and a little disengaged.
@@ -132,6 +150,8 @@ Still, the day was not as fruitful as I would have liked. Despite some good chat
 
 I did land up at the Women in Gaming party that night. This was great, good food, and a lot of cool people. It is free to enter as long as you have a Gamescom pass and register before hand. I recommend going to this one if you can. No you don’t need to be a woman to have access to this.
 
+![](../../assets/images/img_1853.jpeg)
+
 ## Day 3 - Really building connections, choosing between parties and dinners
 
 The day began with a snack share. I brought Kaju Katli with me which was a hit. In retrospect, I should have packed more boxes, I didn’t have enough for the 100 or so scholars there. This was essentially another mixer and a good one at that. Talking about the food people have brought is way easier than trying to pitch games or yourself. It is also another opportunity to make a genuine connection. I spoke to one scholar about where I could find good make-up stores in Germany, and to a curious industry senior about the political landscape of India.
@@ -141,6 +161,8 @@ However, special shout out to Steven Taarland of IGDA Foundation. He had given a
 From that point on, I tried to be more confident and approached conversations the way I’ve been saying they should be approached. I was curious, and I always had specific asks at the end of it.
 
 These ranged from, ‘Can I ask you to review my portfolio’ to ‘Hey can I just hit you up on LinkedIn so you can feedback some of my work later?’. What was wild is, no one ever said no. So really, what is the harm in trying? I’d say this shift in mindset made GamescomDev really worthwhile. This was the last day with talks and workshops, so I’m glad I managed to get out of my shell before the general convention began and all these great speakers were lost to the crowd.
+
+![](../../assets/images/img_6143.jpeg)
 
 The day ended with the Courage Cologne party which is the biggest party that happens at Gamescom. Go to it. I landed up getting a dinner with friends and not being able to get to the party because the trains were super delayed. If the trains hadn’t failed me, I’d have gone to the party. I don’t regret it, I had a blast catching up with friends at Dinner, but its advisable that you prioritize this party in particular.
 
