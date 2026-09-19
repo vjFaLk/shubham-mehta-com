@@ -29,6 +29,10 @@
             "href": "/fiction"
         },
         {
+            "text": "Blog",
+            "href": "/blog"
+        },
+        {
             "text": "Contact",
             "href": "/contact"
         },
