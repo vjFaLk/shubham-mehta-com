@@ -9,17 +9,13 @@ Before we get into this, a very grateful shout out to [Gamedev.In](http://Gamede
 
 Now, lets get into it.
 
-## What is GamescomDev and Gamescom
+# What is GamescomDev and Gamescom
 
 Despite working in the industry for a few years now, I had not really heard of Gamescom. Which maybe says more about how American centric my experience of games is because it is the world’s largest computer and gaming convention.
 
 It hosts Gamescom Dev, which is the developer focused two-day event. Here you will find talks, workshops, and 1 on 1 meeting opportunities across every role in the games industry. A developer trying to better understand Unreal? There is a talk for you. A narrative designer looking to break past the conventional quest structure? There is a talk for you. Want to talk to a veteran dev about how to improve your CV or portfolio, they will be here and will likely be willing to help, if not in the moment then later. These are the days when all the developers are present, so even if you don’t find meetings through the app, you will be able to run into people here and strike up a conversation.
 
 Gamescom itself is everything else. Imagine multiple halls the size of Comic Con Mumbai, filled with companies showcasing their games. You have four or so halls booked out by giant AAA booths where they are showcasing their biggest releases.
-
-![](../../assets/images/img_1937.jpeg)
-
-![](../../assets/images/20260826_111825.jpg)
 
 Then you have a whole hall for indie games, with innumerable Devs from across the world, selected to showcase their unique games. This is where I got to meet up with the lovely folks behind [Fishbowl](https://store.steampowered.com/app/1638070/Fishbowl/), as well as [Raji](https://store.steampowered.com/app/4096880/Raji_Kaliyuga/) and [Appa](https://store.steampowered.com/app/3503500/Appa/).
 
@@ -67,7 +63,7 @@ Shoutout to Skyscanner for finding me cheaper flights that Booking.com. Also, th
 
 Once at the city, the convention pass grants you access to the busses and trains to and fro from the convention hall. Which means that at least during that week, you can get on any train or bus pretty liberally.
 
-> Note: You should book any other train passes, like ones that you might get for exploring a different city, the moment you know you are going. They are 50-60% cheaper a month out, as opposed to even three weeks out. I landed up paying way more because I didn’t lock plans beyond the convention till much later.
+_Note: You should book any other train passes, like ones that you might get for exploring a different city, the moment you know you are going. They are 50-60% cheaper a month out, as opposed to even three weeks out. I landed up paying way more because I didn’t lock plans beyond the convention till much later._
 
 The real cost comes in finding affordable stay. If you can book months in advance, then you can get reasonable stay in Cologne. This will average out to 40 - 50k or so for five nights. Otherwise you are left with a booking in Bonn or Düsseldorf, which are an hour away via train. Even then, the 5-7 days or stay will cost you 50k or so.
 
@@ -77,7 +73,7 @@ The real problem with staying in Düsseldorf or Bonn, is that you need to expend
 
 Cologne and Germany at large is pretty accesisble if you speak English. Public transport like busses and trains will get you almost everywhere. And most places will have wheelchair access. The talks did not have any sign language interpreters, but I’m not sure if these can be requested. The talks did use slides and are available as videos later so a closed captioning service might do the trick.
 
-> Note, the trains are extremely unreliable and they come at large intervals. So assume that if you miss your train, there will be another 30min wait. While all stations have wheelchair support, if something breaks down late at night, you might be stuck waiting for a long time. Fortunately it is pretty safe.
+_Note, the trains are extremely unreliable and they come at large intervals. So assume that if you miss your train, there will be another 30min wait. While all stations have wheelchair support, if something breaks down late at night, you might be stuck waiting for a long time. Fortunately it is pretty safe._
 
 The actual convention and the scholarship program are very accessible. You do need to be confident and approach people and start conversations, but I found that people were welcoming. Don’t cut lines or interrupt people, that won’t fly. But otherwise, asking for help will get you where you need to be.
 
@@ -85,7 +81,9 @@ The actual convention and the scholarship program are very accessible. You do ne
 
 So if you're wondering if you should go to Gamescom, I hope this gave you some information to weigh the opportunity out. In brief, it all comes down too, if you can afford it, yes it will provide value. 
 
-##### Below I'm going to break down how this opportunity came to be and the day to day experience!
+
+**_Below I'm going to break down how this opportunity came to be and the day to day experience!_**
+
 
 # How it came to be
 
@@ -101,9 +99,11 @@ I knew of other Devs who had managed to get to GDC through some public funding a
 
 Once I got that, I was both really happy, and instantly felt like an imposter. Who was I to take up the opportunity, there are far greater Devs out there who could benefit from this. Some of the folks I work with at Tathvamasi Studios would alone be better choices. Honestly, I still feel that way. But I resolved to make the most of the opportunity, even if I didn’t deserve it.
 
-## Let’s get into the day by day and what each experience brought me
 
-### Pre-Con Prep
+# Day by Day
+
+
+## Pre-Con Prep
 
 Leading up to the convention, Robin and Adinda had organized many presentations aimed at preparing us for the conference. I recommend attending all of them as they are informational and also a good chance to talk to the other scholars and get to know them. Again, ask people about what they share, share things you are excited by. Your cohort is likely to be your friend group while there, and finding folks you enjoy being around will make the experience better as it can be overwhelming otherwise.
 
@@ -113,7 +113,7 @@ I didn’t pay to enter any of these so I can’t say if those pay to enter even
 
 I also didn’t sign up for MeetToMatch, this is a paid service that helps people network and connect profiles. This might be worth it if you have a game and are looking for very specific people. But I wanted to largely meet senior Devs and see how I could improve my chances of getting hired as a narrative designer, so I didn’t sign up for this. I also just didn't feel like spending more money in the hopes of networking, it felt too much like paying for LinkedIn. Your mileage may vary.
 
-### Day 1 - Orientation and meeting scholars
+## Day 1 - Orientation and meeting scholars
 
 This was on Sunday. We arrived midday and were greeted with food and water. As I had just flown 15hrs the day before and then had a late night, this was a welcome treat. There were exercises to help us get to know each other. I engaged with them thoroughly and tried to approach every conversation with curiosity.
 
@@ -124,7 +124,7 @@ There were also micro-talks and some key presentations. All of them were excelle
 
 After the talks and meals, a bunch of scholars made plans to get some food. A small group of five turned into a large gathering of 20. It was pretty great. (All this because I spoke to people and asked if I could tag along with them.)
 
-### Day 2 - Talks and finding your footing
+## Day 2 - Talks and finding your footing
 
 This was the first real day of GamescomDev. Despite all the advice, I went in too strong and tried to do everything. I also tried to go to the event that everyone was hyped by, instead of the one that I was more curious about. I quickly found myself bored and a little disengaged.
 
@@ -148,7 +148,7 @@ The day ended with the Courage Cologne party which is the biggest party that hap
 
 Oh this is also the day that has Gamescom Opening Night Live. All the games are announced at this event, if you can reserve a seat in time. But its okay if you can’t, you can catch a watch party or just watch it on Youtube later.
 
-### Day 4 - Con floor and having some fun
+## Day 4 - Con floor and having some fun
 
 The convention opens up and you realize that GamescomDev was happening in a place 1/8th the size of the rest of the convention. This place is massive, hopefully the pictures shared above do it justice.
 
@@ -160,13 +160,13 @@ Try to go check out the booths for the games you enjoy. This will be the only ti
 
 I personally recommend spending a lot of time in the Indie area. Play the demos and talk to the Devs. Ask questions. Its a rare chance to meet so many developers working at budgets similar to yours. AAA booths won’t have the primary Devs so you won’t be able to talk to them there. You can request meetings with those Devs but I don’t really know how to set that up. There was a whole floor where CDPR, Xbox, Areanet, etc. had private meeting areas, I still don’t know who meets there. I presume they are talking to various business partners, publishers, and journalists?
 
-### Day 5 - Okay this convention floor is insane, and Final few meetings
+## Day 5 - Okay this convention floor is insane, and Final few meetings
 
 This was my last full day at the convention. Thursday. Now the convention was open to everyone which meant that the crowds were insane. If you wanted a chance to demo one of the AAA games, you had to wait an hour or more. If you wanted to collect goodies, you would have the same grind.
 
 I landed up having one or two meetings with people I had contacted over the app, and then I spent time slowly checking out Indies and talking to the Devs. On this day, even playing demos was exhausting as the sheer amount of input was overwhelming. For someone like me, who likes small quiet places, I found it all a bit too much. So pace yourself. Be a fan and have fun.
 
-> Note: The days after this sees all the developers leave and the convention is fully public focused. I didn't stay for this as I was exhausted and wanted to see Berlin before I had to leave. You can stay, some people do, but it is unlikely that this will lead to any work benefit!
+_Note: The days after this sees all the developers leave and the convention is fully public focused. I didn't stay for this as I was exhausted and wanted to see Berlin before I had to leave. You can stay, some people do, but it is unlikely that this will lead to any work benefit!_
 
 ## Takeaways going forwards
 
