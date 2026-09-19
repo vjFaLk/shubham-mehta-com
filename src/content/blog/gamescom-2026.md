@@ -19,6 +19,8 @@ Gamescom itself is everything else. Imagine multiple halls the size of Comic Con
 
 ![](../../assets/images/img_1937.jpeg)
 
+![](../../assets/images/20260826_111825.jpg)
+
 Then you have a whole hall for indie games, with innumerable Devs from across the world, selected to showcase their unique games. This is where I got to meet up with the lovely folks behind [Fishbowl](https://store.steampowered.com/app/1638070/Fishbowl/), as well as [Raji](https://store.steampowered.com/app/4096880/Raji_Kaliyuga/) and [Appa](https://store.steampowered.com/app/3503500/Appa/).
 
 And you have multiple booths setup by countries showcasing the talent from their homes. Whether its publishing services, Co-Dev services, or just games that they are proud off.
