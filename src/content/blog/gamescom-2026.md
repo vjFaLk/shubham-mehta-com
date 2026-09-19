@@ -17,7 +17,7 @@ It hosts Gamescom Dev, which is the developer focused two-day event. Here you wi
 
 Gamescom itself is everything else. Imagine multiple halls the size of Comic Con Mumbai, filled with companies showcasing their games. You have four or so halls booked out by giant AAA booths where they are showcasing their biggest releases.
 
-![](../../assets/images/img_1937.jpeg)
+![](/src/assets/images/20260826_111825.jpg)
 
 ![](../../assets/images/img_1921.jpeg)
 
