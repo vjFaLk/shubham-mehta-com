@@ -81,9 +81,7 @@ The actual convention and the scholarship program are very accessible. You do ne
 
 So if you're wondering if you should go to Gamescom, I hope this gave you some information to weigh the opportunity out. In brief, it all comes down too, if you can afford it, yes it will provide value. 
 
-
 **_Below I'm going to break down how this opportunity came to be and the day to day experience!_**
-
 
 # How it came to be
 
@@ -99,9 +97,7 @@ I knew of other Devs who had managed to get to GDC through some public funding a
 
 Once I got that, I was both really happy, and instantly felt like an imposter. Who was I to take up the opportunity, there are far greater Devs out there who could benefit from this. Some of the folks I work with at Tathvamasi Studios would alone be better choices. Honestly, I still feel that way. But I resolved to make the most of the opportunity, even if I didn’t deserve it.
 
-
 # Day by Day
-
 
 ## Pre-Con Prep
 
