@@ -17,35 +17,11 @@ It hosts Gamescom Dev, which is the developer focused two-day event. Here you wi
 
 Gamescom itself is everything else. Imagine multiple halls the size of Comic Con Mumbai, filled with companies showcasing their games. You have four or so halls booked out by giant AAA booths where they are showcasing their biggest releases.
 
-![](../../assets/images/img_1937.jpg)
-
-![](../../assets/images/20260826_112129.jpg)
-
-![](../../assets/images/20260826_112357.jpg)
-
 Then you have a whole hall for indie games, with innumerable Devs from across the world, selected to showcase their unique games. This is where I got to meet up with the lovely folks behind [Fishbowl](https://store.steampowered.com/app/1638070/Fishbowl/), as well as [Raji](https://store.steampowered.com/app/4096880/Raji_Kaliyuga/) and [Appa](https://store.steampowered.com/app/3503500/Appa/).
-
-![](../../assets/images/img_1973.jpg)
-
-![](../../assets/images/20260919-161730.png)
-
-![](../../assets/images/20260919-161710.png)
-
-![](../../assets/images/20260919-161717.png)
 
 And you have multiple booths setup by countries showcasing the talent from their homes. Whether its publishing services, Co-Dev services, or just games that they are proud off.
 
-![](../../assets/images/20260919-161859.png "Image from the Raji Social Media!")
-
 There are dedicated areas for independent artists to sell their crafts. From prints, to pins, to plushies. Undoubtedly this is where your wallet is under greatest threat.
-
-![](../../assets/images/20260919-162504.png)
-
-![](../../assets/images/20260919-162406.png)
-
-![](../../assets/images/20260919-162353.png)
-
-![](../../assets/images/20260919-162427.png)
 
 So that’s, briefly, [Gamescom and GamescomDev](https://dev.gamescom.global/about-gamescom-dev/). If you’d like, you can read more on their website where they probably do a better job of explaining everything.
 
