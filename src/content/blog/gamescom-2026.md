@@ -152,6 +152,8 @@ I did land up at the Women in Gaming party that night. This was great, good food
 
 The day began with a snack share. I brought Kaju Katli with me which was a hit. In retrospect, I should have packed more boxes, I didn’t have enough for the 100 or so scholars there. This was essentially another mixer and a good one at that. Talking about the food people have brought is way easier than trying to pitch games or yourself. It is also another opportunity to make a genuine connection. I spoke to one scholar about where I could find good make-up stores in Germany, and to a curious industry senior about the political landscape of India.
 
+![](../../assets/images/img_6143.jpeg)
+
 However, special shout out to Steven Taarland of IGDA Foundation. He had given a talk at orientation about putting yourself out there and was present at the snack exchange. He saw me looking a little lost and unsure of myself and called me over. He asked how I was doing and I took the opportunity to tell him that I was feeling like I was fumbling it because even though I was having good conversations, I wasn’t following it up with asking to stay in touch after the fact. He asked me, ‘what’s the harm in trying’ and I agreed that there was no harm. His generosity in that moment really helped center me.
 
 From that point on, I tried to be more confident and approached conversations the way I’ve been saying they should be approached. I was curious, and I always had specific asks at the end of it.
@@ -181,6 +183,7 @@ This was my last full day at the convention. Thursday. Now the convention was op
 I landed up having one or two meetings with people I had contacted over the app, and then I spent time slowly checking out Indies and talking to the Devs. On this day, even playing demos was exhausting as the sheer amount of input was overwhelming. For someone like me, who likes small quiet places, I found it all a bit too much. So pace yourself. Be a fan and have fun.
 
 _Note: The days after this sees all the developers leave and the convention is fully public focused. I didn't stay for this as I was exhausted and wanted to see Berlin before I had to leave. You can stay, some people do, but it is unlikely that this will lead to any work benefit!_
+
 
 ## Takeaways going forwards
 
