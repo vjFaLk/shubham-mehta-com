@@ -180,11 +180,14 @@ I personally recommend spending a lot of time in the Indie area. Play the demos 
 
 This was my last full day at the convention. Thursday. Now the convention was open to everyone which meant that the crowds were insane. If you wanted a chance to demo one of the AAA games, you had to wait an hour or more. If you wanted to collect goodies, you would have the same grind.
 
+![](../../assets/images/20260826_111825.jpeg)
+
 I landed up having one or two meetings with people I had contacted over the app, and then I spent time slowly checking out Indies and talking to the Devs. On this day, even playing demos was exhausting as the sheer amount of input was overwhelming. For someone like me, who likes small quiet places, I found it all a bit too much. So pace yourself. Be a fan and have fun.
 
 _Note: The days after this sees all the developers leave and the convention is fully public focused. I didn't stay for this as I was exhausted and wanted to see Berlin before I had to leave. You can stay, some people do, but it is unlikely that this will lead to any work benefit!_
 
-
 ## Takeaways going forwards
 
 Like I said before, whether or not this is a worthwhile experience will vary on a lot of factors. Even I don’t know if this was worth the money it cost. Not yet at least. But I did learn a lot, I made some friends, and I do feel like my horizons have broadened. As India is still a small industry, that exposure to the industry outside is important. I think for local Devs, just learning how and what is done elsewhere is valuable. Otherwise we are at risk of continuing to make the mistakes we already have in our little echo chamber.
+
+![](../../assets/images/pxl_20260825_173635071.jpeg)
