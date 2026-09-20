@@ -146,6 +146,8 @@ Still, the day was not as fruitful as I would have liked. Despite some good chat
 
 I did land up at the Women in Gaming party that night. This was great, good food, and a lot of cool people. It is free to enter as long as you have a Gamescom pass and register before hand. I recommend going to this one if you can. No you don’t need to be a woman to have access to this.
 
+![](../../assets/images/img_1853.jpeg)
+
 ## Day 3 - Really building connections, choosing between parties and dinners
 
 The day began with a snack share. I brought Kaju Katli with me which was a hit. In retrospect, I should have packed more boxes, I didn’t have enough for the 100 or so scholars there. This was essentially another mixer and a good one at that. Talking about the food people have brought is way easier than trying to pitch games or yourself. It is also another opportunity to make a genuine connection. I spoke to one scholar about where I could find good make-up stores in Germany, and to a curious industry senior about the political landscape of India.
