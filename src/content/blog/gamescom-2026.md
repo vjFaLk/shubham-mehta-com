@@ -23,21 +23,13 @@ Then you have a whole hall for indie games, with innumerable Devs from across th
 
 ![](../../assets/images/img_1973.jpeg)
 
-![](../../assets/images/img_2124.jpeg)
 
-![](../../assets/images/img_2123.jpeg)
 
-![](../../assets/images/img_2114.jpeg)
 
 And you have multiple booths setup by countries showcasing the talent from their homes. Whether its publishing services, Co-Dev services, or just games that they are proud off. 
 
-![](../../assets/images/20260826_124721.jpeg)
-
 There are dedicated areas for independent artists to sell their crafts. From prints, to pins, to plushies. Undoubtedly this is where your wallet is under greatest threat.
 
-![](../../assets/images/camphoto_1804928587.jpeg)
-
-![](../../assets/images/img_2087.jpeg)
 
 So that’s, briefly, [Gamescom and GamescomDev](https://dev.gamescom.global/about-gamescom-dev/). If you’d like, you can read more on their website where they probably do a better job of explaining everything.
 
