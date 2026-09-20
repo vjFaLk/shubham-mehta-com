@@ -11,6 +11,8 @@ Now, lets get into it.
 
 # What is GamescomDev and Gamescom
 
+![](../../assets/images/img_1921.jpeg)
+
 Despite working in the industry for a few years now, I had not really heard of Gamescom. Which maybe says more about how American centric my experience of games is because it is the world’s largest computer and gaming convention.
 
 It hosts Gamescom Dev, which is the developer focused two-day event. Here you will find talks, workshops, and 1 on 1 meeting opportunities across every role in the games industry. A developer trying to better understand Unreal? There is a talk for you. A narrative designer looking to break past the conventional quest structure? There is a talk for you. Want to talk to a veteran dev about how to improve your CV or portfolio, they will be here and will likely be willing to help, if not in the moment then later. These are the days when all the developers are present, so even if you don’t find meetings through the app, you will be able to run into people here and strike up a conversation.
