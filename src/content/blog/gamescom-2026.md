@@ -134,6 +134,8 @@ There were also micro-talks and some key presentations. All of them were excelle
 
 After the talks and meals, a bunch of scholars made plans to get some food. A small group of five turned into a large gathering of 20. It was pretty great. (All this because I spoke to people and asked if I could tag along with them.)
 
+![](../../assets/images/dscf2184-1.jpeg "Image by Patrick (Caro) Shepherd")
+
 ## Day 2 - Talks and finding your footing
 
 This was the first real day of GamescomDev. Despite all the advice, I went in too strong and tried to do everything. I also tried to go to the event that everyone was hyped by, instead of the one that I was more curious about. I quickly found myself bored and a little disengaged.
