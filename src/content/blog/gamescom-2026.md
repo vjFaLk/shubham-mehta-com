@@ -3,6 +3,11 @@ title: Gamescom 2026
 excerpt: A detailed breakdown of my time at Gamescom 2026.
 publishDate: Sep 19 2026
 isFeatured: false
+seo:
+  title: Gamescom 2026
+  description: A detailed breakdown of my excellent time there and the many learnings.
+  image:
+    src: ../../assets/images/img_1823.jpeg
 ---
 
 Before we get into this, a very grateful shout out to [Gamedev.In](http://Gamedev.In) without whom I would not have had this opportunity. They partnered with the awesome folks at Gamescom and made this possible. From the Gamescom side, Robin and Adinda, thank you for organizing all of the talks, mixers, orientation, and of course, food! Supercell, you guys are pretty cool for funding this and making it possible. Thank you.
